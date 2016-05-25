@@ -1,0 +1,45 @@
+Assignment text:
+- set generat - OK
+- For each algo what to be done:
+	-DT - pruning/non pruning
+	-NN - hidden units/hidden layers + activation function
+	-boosting - aggresive prunning
+	- svm - min 2 kernel functions
+	- knn - different k's + different distance weight functions (k small -> overfitting)
+- To send
+	- gtechID_readme.txt - how code can be run TODO - must have call to java -cp ..... Main params
+	- .._code.zip - the code
+	- .._analysis.pdf - the analysis
+	- any supporting files (duplicated arff files)
+	
+- Analysis:
+	- description of the problems, why they are interesting
+	- comparisons and analysis of algorithms
+	- training and testing error rates for each algo
+	- minimum graph requirement: training and test error rates as function of training size + training times as function of training size for all except KNN
+	- analysis of results:
+		- why the results we get?
+		- compare and contrast diff algos
+		- what changes can be made to improve performance
+		- how fast are they in terms of clock time (shown in graph anyway) + iterations (displayed in Classifier.toString() bla bla)
+		- cross validation helps? why and if yes why did you not use it
+		- how much the performance relates to the data set (example: if most features are irrelevant -> decision tree may work better than all the ANN or SVM; compare DT attribute nodes with ANN weights)
+		- change values for parameters and show results for different values ( chart only params - data set which makes a difference)
+		- whcih algorithm perform best. How do you define best (running time versus accuracy versus other stat indicators, see ROC curve)
+		
+Posts about assignment:
+- play and learn by doing
+- high bias versus high variance TODO - investigate
+- underfit versus overfit (show where overfitting starts)
+
+Code:
+	- training and testing error:
+		- for each classifier, run multiple times with increasing values of the training size and store the test error rate and training error rate versus the training size + plot them together on the same
+		chart (training/test error function of training size)
+	- execution time
+		- for all classifiers, run each multiple times with increasing values of the training size and store the training time (and classification/test/evaluation time) and plot all of them on 
+		 the same chart (training time function of training size)
+	- accuracy (and/or other statistical indicators) - for all classifiers, run each of them multiple times with different training size, evaluate accuracy for a sufficiently large test set (or if not
+	enough data by cross-validation) and plot all of them on the same chart (accuracy function of training size)
+	- for each classifier, if found some parameter which influences performance (accuracy) - plot the accuracy function of parameter value
+	- a java class which allows to run any classifier with any configuration on any data set with any training size and test size, with or without cross validation			

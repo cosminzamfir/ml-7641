@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project ml.assignments with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/work/transfer/ml.assignments.jar">
+            <manifest>
+                <attribute name="Main-Class" value="ml.assignments.assignment2.knapsack.KSSingleRunTest"/>
+                <attribute name="Class-Path" value=". ml.assignments_lib/jcommon-1.0.23.jar ml.assignments_lib/jfreechart-1.0.19.jar ml.assignments_lib/log4j-1.2.17.jar ml.assignments_lib/stdlib.jar ml.assignments_lib/libsvm.jar ml.assignments_lib/weka-dev-3.7.6.jar ml.assignments_lib/commons-compress-1.10.jar ml.assignments_lib/java-cup.jar ml.assignments_lib/JFlex.jar ml.assignments_lib/junit.jar ml.assignments_lib/packageManager.jar ml.assignments_lib/junit.jar ml.assignments_lib/org.hamcrest.core_1.3.0.v201303031735.jar ml.assignments_lib/commons-lang-2.6.jar ml.assignments_lib/log4j-1.2.17.jar ml.assignments_lib/jcommon-1.0.23.jar ml.assignments_lib/jfreechart-1.0.19.jar ml.assignments_lib/stdlib.jar ml.assignments_lib/weka-dev-3.7.6.jar"/>
+            </manifest>
+            <fileset dir="C:/work/data/workspace/ml.assignments/bin"/>
+            <fileset dir="C:/work/data/workspace/ml/bin"/>
+            <fileset dir="C:/work/data/workspace/abagail/bin"/>
+        </jar>
+        <delete dir="C:/work/transfer/ml.assignments_lib"/>
+        <mkdir dir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/jcommon-1.0.23.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/jfreechart-1.0.19.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/log4j-1.2.17.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/stdlib.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/libsvm.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/weka-dev-3.7.6.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/commons-compress-1.10.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/java-cup.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/JFlex.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/junit.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml.assignments/lib/packageManager.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/apps/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/apps/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/m/lib/commons-lang-2.6.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml/lib/log4j-1.2.17.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml/lib/jcommon-1.0.23.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml/lib/jfreechart-1.0.19.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml/lib/stdlib.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+        <copy file="C:/work/data/workspace/ml/lib/weka-dev-3.7.6.jar" todir="C:/work/transfer/ml.assignments_lib"/>
+    </target>
+</project>

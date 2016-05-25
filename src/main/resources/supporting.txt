@@ -1,0 +1,186 @@
+Tune robot-moves.txt
+=======================
+==========================================================
+Results for DecisionTreeTuner
+==========================================================
+pruning=false : errorRate = 0.6
+pruning=true;confidenceFactor=0.05 : errorRate = 0.6
+pruning=true;confidenceFactor=0.1 : errorRate = 0.6
+pruning=true;confidenceFactor=0.15 : errorRate = 0.6
+pruning=true;confidenceFactor=0.2 : errorRate = 0.6
+pruning=true;confidenceFactor=0.25 : errorRate = 0.6
+pruning=true;confidenceFactor=0.3 : errorRate = 0.6
+pruning=true;confidenceFactor=0.35 : errorRate = 0.6
+pruning=true;confidenceFactor=0.4 : errorRate = 0.6
+pruning=true;confidenceFactor=0.45 : errorRate = 0.6
+==========================================================
+Best result for DecisionTreeTuner - pruning=false - errorRate = 0.6
+==========================================================
+Results for BoostingTuner
+==========================================================
+baseLearner=decisionStump : errorRate = 29.1
+baseLearner=J48;pruning=false : errorRate = 0.6
+baseLearner=J48;pruning=false;confidenceFactor=0.0 : errorRate = 0.6
+baseLearner=J48;pruning=false;confidenceFactor=0.1 : errorRate = 0.6
+baseLearner=J48;pruning=false;confidenceFactor=0.2 : errorRate = 0.6
+baseLearner=J48;pruning=false;confidenceFactor=0.3 : errorRate = 0.6
+baseLearner=J48;pruning=false;confidenceFactor=0.4 : errorRate = 0.6
+baseLearner=J48;pruning=false;confidenceFactor=0.5 : errorRate = 0.6
+baseLearner=J48;pruning=false;confidenceFactor=0.6 : errorRate = 0.6
+baseLearner=J48;pruning=false;confidenceFactor=0.7 : errorRate = 0.6
+baseLearner=J48;pruning=false;confidenceFactor=0.8 : errorRate = 0.6
+baseLearner=J48;pruning=false;confidenceFactor=0.9 : errorRate = 0.6
+==========================================================
+Best result for BoostingTuner - baseLearner=J48;pruning=false - errorRate = 0.6
+==========================================================
+Results for NeuralNetTuner
+==========================================================
+hiddenUnits=5;momentum=0.0;learningRate=0.2 : errorRate = 16.8
+hiddenUnits=5;momentum=0.0;learningRate=0.4 : errorRate = 18.7
+hiddenUnits=5;momentum=0.0;learningRate=0.8 : errorRate = 20.1
+hiddenUnits=5;momentum=0.3;learningRate=0.2 : errorRate = 13.5
+hiddenUnits=5;momentum=0.3;learningRate=0.4 : errorRate = 18.3
+hiddenUnits=5;momentum=0.3;learningRate=0.8 : errorRate = 18.3
+hiddenUnits=5;momentum=0.6;learningRate=0.2 : errorRate = 17.3
+hiddenUnits=5;momentum=0.6;learningRate=0.4 : errorRate = 17.8
+hiddenUnits=5;momentum=0.6;learningRate=0.8 : errorRate = 19.0
+hiddenUnits=7;momentum=0.0;learningRate=0.2 : errorRate = 15.8
+hiddenUnits=7;momentum=0.0;learningRate=0.4 : errorRate = 16.2
+hiddenUnits=7;momentum=0.0;learningRate=0.8 : errorRate = 16.5
+hiddenUnits=7;momentum=0.3;learningRate=0.2 : errorRate = 14.5
+hiddenUnits=7;momentum=0.3;learningRate=0.4 : errorRate = 16.0
+hiddenUnits=7;momentum=0.3;learningRate=0.8 : errorRate = 16.2
+hiddenUnits=7;momentum=0.6;learningRate=0.2 : errorRate = 14.9
+hiddenUnits=7;momentum=0.6;learningRate=0.4 : errorRate = 17.7
+hiddenUnits=7;momentum=0.6;learningRate=0.8 : errorRate = 19.2
+hiddenUnits=9;momentum=0.0;learningRate=0.2 : errorRate = 12.4
+hiddenUnits=9;momentum=0.0;learningRate=0.4 : errorRate = 16.6
+hiddenUnits=9;momentum=0.0;learningRate=0.8 : errorRate = 16.9
+hiddenUnits=9;momentum=0.3;learningRate=0.2 : errorRate = 16.6
+hiddenUnits=9;momentum=0.3;learningRate=0.4 : errorRate = 19.1
+hiddenUnits=9;momentum=0.3;learningRate=0.8 : errorRate = 17.4
+hiddenUnits=9;momentum=0.6;learningRate=0.2 : errorRate = 18.2
+hiddenUnits=9;momentum=0.6;learningRate=0.4 : errorRate = 18.3
+hiddenUnits=9;momentum=0.6;learningRate=0.8 : errorRate = 14.3
+hiddenUnits=11;momentum=0.0;learningRate=0.2 : errorRate = 15.7
+hiddenUnits=11;momentum=0.0;learningRate=0.4 : errorRate = 14.8
+hiddenUnits=11;momentum=0.0;learningRate=0.8 : errorRate = 13.6
+hiddenUnits=11;momentum=0.3;learningRate=0.2 : errorRate = 15.6
+hiddenUnits=11;momentum=0.3;learningRate=0.4 : errorRate = 15.6
+hiddenUnits=11;momentum=0.3;learningRate=0.8 : errorRate = 13.5
+hiddenUnits=11;momentum=0.6;learningRate=0.2 : errorRate = 13.8
+hiddenUnits=11;momentum=0.6;learningRate=0.4 : errorRate = 14.5
+hiddenUnits=11;momentum=0.6;learningRate=0.8 : errorRate = 17.6
+hiddenUnits=13;momentum=0.0;learningRate=0.2 : errorRate = 15.0
+hiddenUnits=13;momentum=0.0;learningRate=0.4 : errorRate = 15.1
+hiddenUnits=13;momentum=0.0;learningRate=0.8 : errorRate = 15.1
+hiddenUnits=13;momentum=0.3;learningRate=0.2 : errorRate = 16.5
+hiddenUnits=13;momentum=0.3;learningRate=0.4 : errorRate = 15.2
+hiddenUnits=13;momentum=0.3;learningRate=0.8 : errorRate = 15.2
+hiddenUnits=13;momentum=0.6;learningRate=0.2 : errorRate = 16.5
+hiddenUnits=13;momentum=0.6;learningRate=0.4 : errorRate = 16.9
+hiddenUnits=13;momentum=0.6;learningRate=0.8 : errorRate = 15.7
+hiddenUnits=15;momentum=0.0;learningRate=0.2 : errorRate = 13.1
+hiddenUnits=15;momentum=0.0;learningRate=0.4 : errorRate = 14.7
+hiddenUnits=15;momentum=0.0;learningRate=0.8 : errorRate = 17.3
+hiddenUnits=15;momentum=0.3;learningRate=0.2 : errorRate = 14.0
+hiddenUnits=15;momentum=0.3;learningRate=0.4 : errorRate = 12.3
+hiddenUnits=15;momentum=0.3;learningRate=0.8 : errorRate = 15.8
+hiddenUnits=15;momentum=0.6;learningRate=0.2 : errorRate = 14.9
+hiddenUnits=15;momentum=0.6;learningRate=0.4 : errorRate = 15.3
+hiddenUnits=15;momentum=0.6;learningRate=0.8 : errorRate = 16.8
+hiddenUnits=17;momentum=0.0;learningRate=0.2 : errorRate = 15.1
+hiddenUnits=17;momentum=0.0;learningRate=0.4 : errorRate = 14.5
+hiddenUnits=17;momentum=0.0;learningRate=0.8 : errorRate = 14.0
+hiddenUnits=17;momentum=0.3;learningRate=0.2 : errorRate = 13.1
+hiddenUnits=17;momentum=0.3;learningRate=0.4 : errorRate = 12.5
+hiddenUnits=17;momentum=0.3;learningRate=0.8 : errorRate = 15.1
+hiddenUnits=17;momentum=0.6;learningRate=0.2 : errorRate = 14.2
+hiddenUnits=17;momentum=0.6;learningRate=0.4 : errorRate = 15.8
+hiddenUnits=17;momentum=0.6;learningRate=0.8 : errorRate = 15.7
+hiddenUnits=19;momentum=0.0;learningRate=0.2 : errorRate = 14.5
+hiddenUnits=19;momentum=0.0;learningRate=0.4 : errorRate = 13.6
+hiddenUnits=19;momentum=0.0;learningRate=0.8 : errorRate = 13.9
+hiddenUnits=19;momentum=0.3;learningRate=0.2 : errorRate = 16.6
+hiddenUnits=19;momentum=0.3;learningRate=0.4 : errorRate = 14.0
+hiddenUnits=19;momentum=0.3;learningRate=0.8 : errorRate = 15.3
+hiddenUnits=19;momentum=0.6;learningRate=0.2 : errorRate = 13.2
+hiddenUnits=19;momentum=0.6;learningRate=0.4 : errorRate = 12.9
+hiddenUnits=19;momentum=0.6;learningRate=0.8 : errorRate = 14.4
+hiddenUnits=21;momentum=0.0;learningRate=0.2 : errorRate = 14.4
+hiddenUnits=21;momentum=0.0;learningRate=0.4 : errorRate = 15.5
+hiddenUnits=21;momentum=0.0;learningRate=0.8 : errorRate = 13.7
+hiddenUnits=21;momentum=0.3;learningRate=0.2 : errorRate = 12.1
+hiddenUnits=21;momentum=0.3;learningRate=0.4 : errorRate = 12.6
+hiddenUnits=21;momentum=0.3;learningRate=0.8 : errorRate = 15.0
+hiddenUnits=21;momentum=0.6;learningRate=0.2 : errorRate = 12.9
+hiddenUnits=21;momentum=0.6;learningRate=0.4 : errorRate = 14.5
+hiddenUnits=21;momentum=0.6;learningRate=0.8 : errorRate = 13.4
+hiddenUnits=23;momentum=0.0;learningRate=0.2 : errorRate = 14.0
+hiddenUnits=23;momentum=0.0;learningRate=0.4 : errorRate = 14.7
+hiddenUnits=23;momentum=0.0;learningRate=0.8 : errorRate = 12.7
+hiddenUnits=23;momentum=0.3;learningRate=0.2 : errorRate = 14.8
+hiddenUnits=23;momentum=0.3;learningRate=0.4 : errorRate = 13.0
+hiddenUnits=23;momentum=0.3;learningRate=0.8 : errorRate = 15.6
+hiddenUnits=23;momentum=0.6;learningRate=0.2 : errorRate = 15.3
+hiddenUnits=23;momentum=0.6;learningRate=0.4 : errorRate = 14.5
+hiddenUnits=23;momentum=0.6;learningRate=0.8 : errorRate = 16.0
+hiddenUnits=25;momentum=0.0;learningRate=0.2 : errorRate = 14.1
+hiddenUnits=25;momentum=0.0;learningRate=0.4 : errorRate = 14.9
+hiddenUnits=25;momentum=0.0;learningRate=0.8 : errorRate = 15.1
+hiddenUnits=25;momentum=0.3;learningRate=0.2 : errorRate = 16.2
+hiddenUnits=25;momentum=0.3;learningRate=0.4 : errorRate = 13.4
+hiddenUnits=25;momentum=0.3;learningRate=0.8 : errorRate = 14.4
+hiddenUnits=25;momentum=0.6;learningRate=0.2 : errorRate = 12.1
+hiddenUnits=25;momentum=0.6;learningRate=0.4 : errorRate = 13.9
+hiddenUnits=25;momentum=0.6;learningRate=0.8 : errorRate = 13.7
+==========================================================
+Best result for NeuralNetTuner - hiddenUnits=21;momentum=0.3;learningRate=0.2 -                                                                                                                       errorRate = 12.1
+==========================================================
+Results for SMOTuner
+==========================================================
+Kernel=Liniar : errorRate = 27.9
+Kernel=Quadratic : errorRate = 12.2
+Kernel=Cubic : errorRate = 11.6
+Kernel=Radial;gamma=0.04 : errorRate = 30.6
+Kernel=Radial;gamma=0.33999999999999997 : errorRate = 14.4
+Kernel=Radial;gamma=0.64 : errorRate = 13.0
+Kernel=Radial;gamma=0.94 : errorRate = 13.0
+Kernel=Radial;gamma=1.24 : errorRate = 12.9
+==========================================================
+Best result for SMOTuner - Kernel=Cubic - errorRate = 11.6
+==========================================================
+Results for KNNTunner
+==========================================================
+k=1;DistanceWeight=None : errorRate = 17.1
+k=1;DistanceWeight=Inverse : errorRate = 17.1
+k=1;DistanceWeight=Similarity : errorRate = 17.1
+k=2;DistanceWeight=None : errorRate = 20.7
+k=2;DistanceWeight=Inverse : errorRate = 17.1
+k=2;DistanceWeight=Similarity : errorRate = 17.1
+k=4;DistanceWeight=None : errorRate = 21.9
+k=4;DistanceWeight=Inverse : errorRate = 17.2
+k=4;DistanceWeight=Similarity : errorRate = 17.5
+k=6;DistanceWeight=None : errorRate = 21.8
+k=6;DistanceWeight=Inverse : errorRate = 18.5
+k=6;DistanceWeight=Similarity : errorRate = 19.4
+k=8;DistanceWeight=None : errorRate = 21.9
+k=8;DistanceWeight=Inverse : errorRate = 18.1
+k=8;DistanceWeight=Similarity : errorRate = 20.0
+k=10;DistanceWeight=None : errorRate = 21.4
+k=10;DistanceWeight=Inverse : errorRate = 18.2
+k=10;DistanceWeight=Similarity : errorRate = 20.1
+k=20;DistanceWeight=None : errorRate = 23.0
+k=20;DistanceWeight=Inverse : errorRate = 19.1
+k=20;DistanceWeight=Similarity : errorRate = 22.3
+==========================================================
+Best result for KNNTunner - k=1;DistanceWeight=None - errorRate = 17.1
+==========================================================
+Best configuration for each algorithm:
+==========================================================
+DecisionTreeTuner - pruning=false - errorRate = 0.6
+BoostingTuner - baseLearner=J48;pruning=false - errorRate = 0.6
+NeuralNetTuner - hiddenUnits=21;momentum=0.3;learningRate=0.2 - errorRate = 12.1
+SMOTuner - Kernel=Cubic - errorRate = 11.6
+KNNTunner - k=1;DistanceWeight=None - errorRate = 17.1
+==========================================================

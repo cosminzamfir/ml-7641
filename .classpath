@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.23.jar" sourcepath="c:/work/data/.m2/repository/org/jfree/jcommon/1.0.23/jcommon-1.0.23-sources.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.19.jar" sourcepath="c:/work/data/.m2/repository/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19-sources.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/stdlib.jar"/>
+	<classpathentry kind="lib" path="lib/libsvm.jar"/>
+	<classpathentry kind="lib" path="lib/weka-dev-3.7.6.jar" sourcepath="C:/work/data/ml.omcs/software/weka/weka-dev-3.7.6-sources.zip"/>
+	<classpathentry kind="lib" path="lib/commons-compress-1.10.jar"/>
+	<classpathentry kind="lib" path="lib/java-cup.jar"/>
+	<classpathentry kind="lib" path="lib/JFlex.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/packageManager.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ml"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/abagail"/>
+	<classpathentry kind="lib" path="C:/work/data/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="lib" path="C:/work/data/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/commons-io-2.3.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-android-aarch64.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-android-armv6.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-linux-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-linux-armv6.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-linux-armv6hf.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-solaris-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-solaris-i586.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/gluegen-rt-main-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-android-aarch64.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-android-armv6.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-linux-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-linux-armv6.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-linux-armv6hf.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-solaris-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-solaris-i586.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-2.3.2.jar" sourcepath="c:/work/data/.m2/repository/org/jogamp/jogl/jogl-all/2.3.2/jogl-all-2.3.2-sources.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jogl-all-main-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/jzi3d.jar" sourcepath="/jzy3d-api/src/api"/>
+	<classpathentry kind="lib" path="lib/jzy3d/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/miglayout-3.7.4.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/miglayout-core-5.0.jar"/>
+	<classpathentry kind="lib" path="lib/jzy3d/miglayout-swing-5.0.jar"/>
+	<classpathentry kind="lib" path="/m/lib/commons-lang-2.6.jar" sourcepath="/m/lib/commons-lang-2.6-sources.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/burlap"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

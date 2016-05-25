@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project ml.assignments with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml.jar">
+            <manifest>
+                <attribute name="Main-Class" value="ml.assignments.assignment1.Main"/>
+                <attribute name="Class-Path" value=". ml_lib/jcommon-1.0.23.jar ml_lib/jfreechart-1.0.19.jar ml_lib/log4j-1.2.17.jar ml_lib/stdlib.jar ml_lib/libsvm.jar ml_lib/weka-dev-3.7.6.jar ml_lib/commons-compress-1.10.jar ml_lib/java-cup.jar ml_lib/JFlex.jar ml_lib/junit.jar ml_lib/packageManager.jar ml_lib/junit.jar ml_lib/org.hamcrest.core_1.3.0.v201303031735.jar ml_lib/log4j-1.2.17.jar ml_lib/jcommon-1.0.23.jar ml_lib/jfreechart-1.0.19.jar ml_lib/stdlib.jar ml_lib/weka-dev-3.7.6.jar ml_lib/commons-lang-2.6.jar"/>
+            </manifest>
+            <fileset dir="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/bin"/>
+            <fileset dir="C:/data/dropbox/Dropbox/omcs/ml/projects/ml/bin"/>
+        </jar>
+        <delete dir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <mkdir dir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/jcommon-1.0.23.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/jfreechart-1.0.19.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/log4j-1.2.17.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/stdlib.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/libsvm.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/weka-dev-3.7.6.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/commons-compress-1.10.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/java-cup.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/JFlex.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/junit.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml.assignments/lib/packageManager.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/apps/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/apps/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml/lib/log4j-1.2.17.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml/lib/jcommon-1.0.23.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml/lib/jfreechart-1.0.19.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml/lib/stdlib.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml/lib/weka-dev-3.7.6.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+        <copy file="C:/data/dropbox/Dropbox/omcs/ml/projects/ml/lib/commons-lang-2.6.jar" todir="C:/data/dropbox/Dropbox/omcs/ml/assignments/ml_lib"/>
+    </target>
+</project>
